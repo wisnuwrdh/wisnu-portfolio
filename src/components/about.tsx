@@ -8,7 +8,7 @@ export default function About() {
           <div className="relative w-full aspect-square md:aspect-[3/4] overflow-hidden rounded-3xl">
             <img
               className="w-full h-full object-cover"
-              src="/images/about-wisnu.webp"
+              src="/images/about-wisnu.jpg"
               alt="Wisnu Wardhana di ruang kerja"
             />
           </div>

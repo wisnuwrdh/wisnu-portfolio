@@ -37,7 +37,7 @@ export default function Hero() {
         <div className="relative overflow-hidden rounded-3xl aspect-[3/4] shadow-xl">
           <img
             className="w-full h-full object-cover"
-            src="/images/hero-wisnu.webp"
+            src="/images/hero-wisnu.jpg"
             alt="Wisnu Wardhana — Landing Page Designer & Developer"
           />
         </div>
