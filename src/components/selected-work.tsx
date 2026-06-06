@@ -19,6 +19,8 @@ export default function SelectedWork() {
             <a
               key={project.id}
               href={project.url || "#"}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group cursor-pointer bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
             >
               <div className="aspect-video overflow-hidden">

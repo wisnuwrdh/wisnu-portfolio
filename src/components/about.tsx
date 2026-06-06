@@ -8,7 +8,7 @@ export default function About() {
           <div className="relative w-full aspect-square md:aspect-[3/4] overflow-hidden rounded-3xl">
             <img
               className="w-full h-full object-cover"
-              src="https://placehold.co/600x750/e6e8ea/434655?text=Foto+Wisnu"
+              src="/images/about-wisnu.webp"
               alt="Wisnu Wardhana di ruang kerja"
             />
           </div>
