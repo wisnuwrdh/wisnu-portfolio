@@ -22,8 +22,8 @@ const LanguageContext = createContext<{
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>(() => {
-    if (typeof window === "undefined") return "en";
-    return window.localStorage.getItem("lang") === "id" ? "id" : "en";
+    if (typeof window === "undefined") return "id";
+    return window.localStorage.getItem("lang") === "en" ? "en" : "id";
   });
 
   const setLang = useCallback((next: Lang) => {

@@ -17,32 +17,33 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Wisnu Wardhana — Organic Content Marketing · Skincare & Beauty",
+  title: "Wisnu Wardhana — Konten Skincare Organik · Edukasi Jerawat",
   description:
-    "Content marketing specialist for the skincare & beauty niche. Organic growth on TikTok, Instagram and the web — built on storytelling and trust.",
+    "Konten pendek skincare & kecantikan yang jujur untuk TikTok — edukasi jerawat, hook, edit dan hasil yang bisa ditunjukkan tanpa iklan berbayar.",
   authors: [{ name: "Wisnu Wardhana" }],
   keywords: [
     "content marketing",
     "organik",
     "skincare",
-    "beauty",
+    "kecantikan",
     "TikTok",
     "Instagram",
+    "edukasi jerawat",
     "Wisnu Wardhana",
   ],
   openGraph: {
-    title: "Wisnu Wardhana — Organic Content Marketing",
+    title: "Wisnu Wardhana — Konten Skincare Organik",
     description:
-      "Organic-first marketing for skincare & beauty brands. Short-form video, storytelling and TikTok/Instagram strategy.",
+      "Konten pendek skincare & kecantikan untuk TikTok. Dibuat dan diperbaiki dari data — tanpa iklan berbayar.",
     type: "website",
-    locale: "en_US",
+    locale: "id_ID",
   },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="id"
       suppressHydrationWarning
       className={`${archivo.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >

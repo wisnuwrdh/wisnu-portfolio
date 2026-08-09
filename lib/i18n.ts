@@ -17,9 +17,9 @@ export const dictionary = {
       titleB: "that grows —",
       titleAccent: "no ads.",
       subtitle:
-        "Short-form, acne-focused content for TikTok. I write the hooks, edit the videos and follow the numbers. My best videos reach 100K+ views without a single boost.",
+        "Short-form, acne-focused content for TikTok. Hooks, edits and scripts I write myself — with results I can show, not guess.",
       ctaPrimary: "See the work",
-      ctaSecondary: "Email me",
+      ctaSecondary: "Send the brief",
       tiktok: {
         handle: "@pedetanpajerawat",
         title: "Acne Education",
@@ -54,9 +54,9 @@ export const dictionary = {
           tag: "Niche",
         },
         {
-          title: "Iteration & Analytics",
+          title: "Retention-first Content",
           description:
-            "I follow the numbers: retention, saves, follows. I keep what works and change what doesn't.",
+            "I measure how long people watch, what they save and follow — and the next video uses that data. Growth you can see in the timeline.",
           tag: "Analytics",
         },
       ],
@@ -71,7 +71,7 @@ export const dictionary = {
           title: "@pedetanpajerawat",
           platform: "TikTok · Acne education",
           description:
-            "A TikTok channel about recognizing acne patterns, debunking myths and showing real solutions. My best videos pass 100K+ organic views.",
+            "An acne-education channel where the best videos pass 100K+ views. Growth comes from people watching to the end — not from ads.",
           tags: ["TikTok", "100K+ views", "Short-form"],
           links: [{ label: "View channel", href: "https://www.tiktok.com/@pedetanpajerawat" }],
         },
@@ -142,9 +142,9 @@ export const dictionary = {
       titleB: "tumbuh tanpa iklan.",
       titleAccent: "Beneran.",
       subtitle:
-        "Konten pendek fokus jerawat untuk TikTok. Saya menulis hook, mengedit script dan belajar dari angka. Video terbaik saya tembus 100K+ views tanpa boost sama sekali.",
+        "Konten pendek fokus jerawat untuk TikTok. Hook, edit dan script saya kerjakan sendiri — hasilnya bisa ditunjukkan, bukan ditebak.",
       ctaPrimary: "Lihat karya",
-      ctaSecondary: "Email saya",
+      ctaSecondary: "Kirim brief",
       tiktok: {
         handle: "@pedetanpajerawat",
         title: "Edukasi Jerawat",
@@ -179,9 +179,9 @@ export const dictionary = {
           tag: "Niche",
         },
         {
-          title: "Iterasi & Analitik",
+          title: "Konten Berbasis Retensi",
           description:
-            "Saya mengikuti angka: retention, simpan, follow. Yang terbukti saya pertahankan, yang tidak saya ganti.",
+            "Saya ukur berapa lama orang menonton, menyimpan dan follow — video berikutnya memakai data itu. Pertumbuhan terlihat di timeline.",
           tag: "Analitik",
         },
       ],
@@ -196,7 +196,7 @@ export const dictionary = {
           title: "@pedetanpajerawat",
           platform: "TikTok · Edukasi jerawat",
           description:
-            "Channel TikTok tentang pola jerawat, mitos dan solusi nyata. Video terbaik tembus 100K+ views organik.",
+            "Channel edukasi jerawat yang video terbaiknya tembus 100K+ views. Pertumbuhan datang dari penonton yang betah — bukan dari iklan.",
           tags: ["TikTok", "100K+ views", "Video Pendek"],
           links: [{ label: "Lihat channel", href: "https://www.tiktok.com/@pedetanpajerawat" }],
         },
