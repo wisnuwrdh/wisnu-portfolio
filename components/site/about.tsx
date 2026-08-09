@@ -14,7 +14,7 @@ export function About() {
   return (
     <section id="about" className="relative scroll-mt-24 py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-5">
-        <SectionHeader eyebrow={a.eyebrow} title={a.title} />
+        <SectionHeader index="03" eyebrow={a.eyebrow} title={a.title} />
 
         <div className="grid items-start gap-12 md:grid-cols-[0.85fr_1.15fr]">
           {/* Visual */}
@@ -43,7 +43,7 @@ export function About() {
                     Wisnu Wardhana
                   </p>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    {t.hero.role}
+                    {t.hero.badge}
                   </p>
                 </div>
               </div>

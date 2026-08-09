@@ -1,6 +1,5 @@
 import { Header } from "@/components/site/header";
 import { Hero } from "@/components/site/hero";
-import { Marquee } from "@/components/site/marquee";
 import { Services } from "@/components/site/services";
 import { Projects } from "@/components/site/projects";
 import { About } from "@/components/site/about";
@@ -13,7 +12,6 @@ export default function Page() {
       <Header />
       <main id="main">
         <Hero />
-        <Marquee />
         <Services />
         <Projects />
         <About />

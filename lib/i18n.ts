@@ -1,9 +1,9 @@
 export const dictionary = {
   en: {
     meta: {
-      title: "Wisnu Wardhana — Organic Content Marketing, Skincare & Beauty",
+      title: "Wisnu Wardhana — Organic Skincare Content, Acne Education",
       description:
-        "Content marketing specialist for the skincare & beauty niche, building organic growth on TikTok, Instagram and the web.",
+        "I build honest, short-form skincare content that grows brands on TikTok without paid ads.",
     },
     nav: {
       services: "Services",
@@ -12,118 +12,106 @@ export const dictionary = {
       contact: "Contact",
     },
     hero: {
-      badge: "Available for skincare & beauty brands",
-      role: "Content Marketing Specialist",
-      niche: "Skincare & Beauty Niche",
-      titleA: "Organic content,",
-      titleAccent: "done right.",
-      titleB: "That grows brands.",
+      badge: "100% organic",
+      titleA: "Honest skincare content",
+      titleB: "that grows —",
+      titleAccent: "no ads.",
       subtitle:
-        "I create organic-first marketing for skincare brands — short-form video, storytelling and strategy for TikTok & Instagram that compounds over time.",
+        "Short-form, acne-focused content for TikTok. I write the hooks, edit the videos and follow the numbers. My best videos reach 100K+ views without a single boost.",
       ctaPrimary: "See the work",
-      ctaSecondary: "Get in touch",
-      scroll: "Scroll",
+      ctaSecondary: "Email me",
+      tiktok: {
+        handle: "@pedetanpajerawat",
+        title: "Acne Education",
+        caption: "Acne isn't just oily skin. Look for these 3 signs.",
+        current: "0:47",
+        length: "1:00",
+        viewsChip: "Top video · 100K+ views",
+      },
     },
-    marquee: [
-      "Skincare",
-      "Beauty",
-      "TikTok",
-      "Instagram",
-      "Organic Content",
-      "Short-form Video",
-      "Storytelling",
-      "Audience Growth",
-      "Educational Content",
-    ],
     services: {
       eyebrow: "What I do",
-      title: "Marketing content that works like a system",
+      title: "Content I plan, make and learn from",
       subtitle:
-        "Not one-off posts — a repeatable organic engine built for the skincare and beauty niche.",
+        "Not one-off posts — a repeatable routine built for the skincare niche.",
       items: [
         {
           title: "Organic Content Marketing",
           description:
-            "End-to-end content strategy — research, scripts, production timeline and posting cadence built to compound attention.",
+            "I plan, write and produce content end-to-end — from hook research to posting schedule. No paid distribution.",
           tag: "TikTok · Instagram",
         },
         {
-          title: "Short-form Video & Scripting",
+          title: "Short-form Video & Editing",
           description:
-            "Hook-first storytelling, trend-aware formats and creatives engineered to stop the scroll and start saves.",
-          tag: "Reels · TikTok",
+            "9:16 videos built to be watched till the end: a clear hook, a three-part structure, quick cuts.",
+          tag: "Reels · Shorts",
         },
         {
-          title: "Skincare Niche Strategy",
+          title: "Acne & Skincare Education",
           description:
-            "Audience pain tiers, ingredient claims and educational angles turned into honest, credible content.",
-          tag: "Niche Growth",
+            "I turn skin knowledge into honest, simple content — active ingredients, acne types, product claims.",
+          tag: "Niche",
         },
         {
-          title: "Growth & Optimization",
+          title: "Iteration & Analytics",
           description:
-            "Post-level analytics, iteration loops and funnel fixes so every video outperforms the last one.",
+            "I follow the numbers: retention, saves, follows. I keep what works and change what doesn't.",
           tag: "Analytics",
         },
       ],
     },
     projects: {
-      eyebrow: "Selected work",
-      title: "Proof from the niche",
-      subtitle:
-        "Two projects I put my organic marketing principles into practice.",
+      eyebrow: "Projects",
+      title: "What I've built",
+      subtitle: "Short-form and web, focused on honest content about acne.",
       items: [
         {
           index: "01",
           title: "@pedetanpajerawat",
-          platform: "TikTok — Educational Acne Content",
+          platform: "TikTok · Acne education",
           description:
-            "An educational TikTok channel dedicated to recognizing acne patterns and problems. Honest, science-backed content built for the skincare niche.",
-          tags: ["TikTok", "Organic Growth", "Educational"],
-          links: [
-            { label: "View channel", href: "https://www.tiktok.com/@pedetanpajerawat" },
-          ],
+            "A TikTok channel about recognizing acne patterns, debunking myths and showing real solutions. My best videos pass 100K+ organic views.",
+          tags: ["TikTok", "100K+ views", "Short-form"],
+          links: [{ label: "View channel", href: "https://www.tiktok.com/@pedetanpajerawat" }],
         },
         {
           index: "02",
           title: "narehat.com",
-          platform: "Web — Skincare Education",
+          platform: "Web · Skincare resource",
           description:
-            "A website to help people recognize their acne patterns and problems, turning niche knowledge into a shareable, useful product.",
+            "The same content, written down: a simple guide to understand acne — symptoms, causes, first steps.",
           tags: ["Web", "Content", "SEO"],
           links: [{ label: "Visit narehat.com", href: "https://narehat.com" }],
         },
-        {
-          index: "03",
-          title: "The Organic Loop",
-          platform: "Method · Content System",
-          description:
-            "A repeatable system — research, script, publish, learn, repeat — that turns organic content into a compounding asset.",
-          tags: ["Strategy", "System"],
-          links: [],
-        },
       ],
-      cta: "Let's make your content work harder",
+      cta: "Want similar content for your brand?",
     },
     about: {
-      eyebrow: "About me",
-      title: "Digital marketer in love with the organic game",
+      eyebrow: "About",
+      title: "Who's behind the content",
       paragraphs: [
-        "I'm Wisnu Wardhana — a digital marketer specialized in organic content marketing for the skincare and beauty niche.",
-        "From building @pedetanpajerawat on TikTok to shipping an educational web resource (narehat.com), I'm obsessed with one question: how does honest, useful content earn attention without paid boost?",
+        "I'm Wisnu Wardhana — a content creator and digital marketer. I work in the skincare & beauty niche, where I learned to treat content as a habit, not a one-off post.",
+        "I currently write and edit @pedetanpajerawat on TikTok: honest, useful videos about acne — patterns, causes, myths. The same ideas grow on narehat.com.",
+        "I don't pay to be seen. I make content useful, and let it grow on its own.",
       ],
-      bullets: ["TikTok & Instagram organic growth", "Skincare & beauty niche", "Educational storytelling", "Web = content home"],
+      bullets: [
+        "Short-form content for TikTok",
+        "Acne & skincare education",
+        "Content that grows into a website (narehat.com)",
+        "Iteration by metrics, not by guesswork",
+      ],
       stats: [
+        { label: "Top video", value: "100K+ views" },
         { label: "Platforms", value: "TikTok · IG · Web" },
-        { label: "Niche", value: "Skincare & Beauty" },
         { label: "Approach", value: "100% Organic" },
       ],
     },
     contact: {
       eyebrow: "Contact",
-      title: "Let's grow your brand with organic content",
+      title: "Let's talk content",
       subtitle:
-        "Open to skincare & beauty brands, content roles and collaborations.",
+        "Open to skincare & beauty brands, or anyone who needs short-form content that grows without ads.",
       emailLabel: "Email me",
       email: "mywisnuwardhana@gmail.com",
       socials: [
@@ -138,9 +126,9 @@ export const dictionary = {
   },
   id: {
     meta: {
-      title: "Wisnu Wardhana — Content Marketing Organik, Niche Skincare",
+      title: "Wisnu Wardhana — Konten Skincare Organik, Edukasi Jerawat",
       description:
-        "Spesialis content marketing organik untuk niche skincare & kecantikan — TikTok, Instagram dan website.",
+        "Saya membuat konten pendek skincare yang jujur dan menumbuhkan brand di TikTok — tanpa iklan berbayar.",
     },
     nav: {
       services: "Layanan",
@@ -149,119 +137,107 @@ export const dictionary = {
       contact: "Kontak",
     },
     hero: {
-      badge: "Terbuka untuk brand skincare & kecantikan",
-      role: "Spesialis Content Marketing",
-      niche: "Niche Skincare & Kecantikan",
-      titleA: "Konten organik,",
-      titleAccent: "yang bekerja.",
-      titleB: "Bikin brand tumbuh.",
+      badge: "100% organik",
+      titleA: "Konten skincare yang jujur,",
+      titleB: "tumbuh tanpa iklan.",
+      titleAccent: "Beneran.",
       subtitle:
-        "Saya membangun marketing konten organik untuk brand skincare — video pendek, strategi TikTok dan Instagram yang terbukti menumbuhkan audiens.",
+        "Konten pendek fokus jerawat untuk TikTok. Saya menulis hook, mengedit script dan belajar dari angka. Video terbaik saya tembus 100K+ views tanpa boost sama sekali.",
       ctaPrimary: "Lihat karya",
-      ctaSecondary: "Hubungi saya",
-      scroll: "Gulir",
+      ctaSecondary: "Email saya",
+      tiktok: {
+        handle: "@pedetanpajerawat",
+        title: "Edukasi Jerawat",
+        caption: "Jerawat bukan cuma kulit berminyak. Cek 3 tanda ini.",
+        current: "0:47",
+        length: "1:00",
+        viewsChip: "Video teratas · 100K+ views",
+      },
     },
-    marquee: [
-      "Skincare",
-      "Kecantikan",
-      "TikTok",
-      "Instagram",
-      "Konten Organik",
-      "Video Pendek",
-      "Storytelling",
-      "Pertumbuhan Audiens",
-      "Konten Edukasi",
-    ],
     services: {
       eyebrow: "Yang saya kerjakan",
-      title: "Konten marketing yang bekerja seperti mesin",
+      title: "Konten yang saya rencanakan, buat dan pelajari",
       subtitle:
-        "Bukan sekadar unggahan — sistem organik berulang yang cocok untuk niche skincare & kecantikan.",
+        "Bukan sekali unggah — rutinitas berulang yang cocok untuk niche skincare.",
       items: [
         {
-          title: "Organic Content Marketing",
+          title: "Content Marketing Organik",
           description:
-            "Strategi konten ujung-ke-awal — riset, produksi, jadwal dan ritme postingan yang memupuk attention secara berulang.",
+            "Saya merencanakan, menulis dan memproduksi konten dari awal sampai akhir — dari riset hook sampai jadwal posting. Tanpa distribusi berbayar.",
           tag: "TikTok · Instagram",
         },
         {
-          title: "Video Pendek & Script",
+          title: "Video Pendek & Editing",
           description:
-            "Storytelling ber-daya ungkit, edit yang sadar tren, dan kreatif yang dirancang untuk menghentikan scroll.",
-          tag: "Reels · TikTok",
+            "Video 9:16 yang dirancang tonton sampai habis: hook jelas, struktur tiga bagian, potongan cepat.",
+          tag: "Reels · Shorts",
         },
         {
-          title: "Strategi Niche Skincare",
+          title: "Edukasi Jerawat & Skincare",
           description:
-            "Pemetaan pain point audiens, klaim bahan, dan angle edukatif yang jujur menjadi konten yang dipercayai.",
-          tag: "Pertumbuhan Niche",
+            "Pengetahuan kulit saya ubah jadi konten sederhana yang jujur — kandungan aktif, jenis jerawat, klaim produk.",
+          tag: "Niche",
         },
         {
-          title: "Growth & Optimasi",
+          title: "Iterasi & Analitik",
           description:
-            "Analitik per postingan, loop iterasi, dan perbaikan organik agar setiap konten lebih baik dari sebelumnya.",
+            "Saya mengikuti angka: retention, simpan, follow. Yang terbukti saya pertahankan, yang tidak saya ganti.",
           tag: "Analitik",
         },
       ],
     },
     projects: {
-      eyebrow: "Karya terpilih",
-      title: "Bukti dari niche-nya",
-      subtitle:
-        "Dua proyek tempat saya menerapkan sistem marketing organik.",
+      eyebrow: "Proyek",
+      title: "Yang sudah saya bangun",
+      subtitle: "Short-form dan web, fokus pada konten jujur tentang jerawat.",
       items: [
         {
           index: "01",
           title: "@pedetanpajerawat",
-          platform: "TikTok — Konten Edukasi Jerawat",
+          platform: "TikTok · Edukasi jerawat",
           description:
-            "Channel TikTok edukatif yang membantu mengenali pola dan masalah jerawat. Konten jujur, konsisten, dibangun untuk niche skincare.",
-          tags: ["TikTok", "Organic Growth", "Edukasi"],
-          links: [
-            { label: "Lihat channel", href: "https://www.tiktok.com/@pedetanpajerawat" },
-          ],
+            "Channel TikTok tentang pola jerawat, mitos dan solusi nyata. Video terbaik tembus 100K+ views organik.",
+          tags: ["TikTok", "100K+ views", "Video Pendek"],
+          links: [{ label: "Lihat channel", href: "https://www.tiktok.com/@pedetanpajerawat" }],
         },
         {
           index: "02",
           title: "narehat.com",
-          platform: "Web · Edukasi Skincare",
+          platform: "Web · Referensi skincare",
           description:
-            "Website untuk membantu memahami pola jerawat dan cara menanganinya — riset pendidikan yang bisa dibagikan ke banyak orang.",
+            "Konten yang sama, dituliskan jadi panduan sederhana memahami jerawat — gejala, penyebab, langkah awal.",
           tags: ["Web", "Konten", "SEO"],
           links: [{ label: "Kunjungi narehat.com", href: "https://narehat.com" }],
         },
-        {
-          index: "03",
-          title: "The Organic Loop",
-          platform: "Sistem · Konten",
-          description:
-            "Sistem berulang — riset, script, publish, belajar, optimasi — yang menjadikan konten skincare sebagai aset yang berkembang.",
-          tags: ["Strategi", "Sistem"],
-          links: [],
-        },
       ],
-      cta: "Bikin kontenmu bekerja lebih keras",
+      cta: "Mau konten serupa untuk brandmu?",
     },
     about: {
-      eyebrow: "Tentang saya",
-      title: "Digital marketer yang menyukai game organik",
+      eyebrow: "Tentang",
+      title: "Orang di balik konten ini",
       paragraphs: [
-        "Saya Wisnu Wardhana — digital marketer yang berpijak pada pemasaran konten organik untuk niche skincare dan kecantikan.",
-        "Dari membangun @pedetanpajerawat di TikTok sampai merilis web edukasi (narehat.com), saya terobsesi dengan satu pertanyaan: bagaimana konten yang jujur mendapat perhatian tanpa iklan berbayar?",
+        "Saya Wisnu Wardhana — content creator dan digital marketer di niche skincare & kecantikan. Saya belajar memperlakukan konten sebagai kebiasaan, bukan sekali unggah.",
+        "Saya menulis dan mengedit @pedetanpajerawat di TikTok: video jujur tentang jerawat — pola, penyebab, mitos. Ide yang sama tumbuh ke narehat.com.",
+        "Saya tidak bayar untuk dilihat. Saya membuat konten yang bermanfaat, lalu membiarkannya tumbuh.",
       ],
-      bullets: ["Pertumbuhan organik TikTok & IG", "Skincare & produk kecantikan", "Konten edukatif", "Konten pendek berbasis teks"],
+      bullets: [
+        "Konten pendek untuk TikTok",
+        "Edukasi jerawat & skincare",
+        "Konten yang tumbuh jadi website (narehat.com)",
+        "Iterasi berdasarkan data, bukan tebak-tebakan",
+      ],
       stats: [
+        { label: "Video teratas", value: "100K+ views" },
         { label: "Platform", value: "TikTok · IG · Web" },
-        { label: "Niche", value: "Skincare & Kecantikan" },
         { label: "Pendekatan", value: "100% Organik" },
       ],
     },
     contact: {
       eyebrow: "Kontak",
-      title: "Ayo tumbuhkan brandmu dengan konten organik",
+      title: "Ayo ngobrol soal konten",
       subtitle:
-        "Terbuka untuk brand skincare & kecantikan, peran konten dan kolaborasi.",
-      emailLabel: "Kirim email",
+        "Terbuka untuk brand skincare & kecantikan, atau siapa pun yang butuh konten pendek yang tumbuh tanpa iklan.",
+      emailLabel: "Email saya",
       email: "mywisnuwardhana@gmail.com",
       socials: [
         { label: "TikTok", handle: "@pedetanpajerawat", href: "https://www.tiktok.com/@pedetanpajerawat" },

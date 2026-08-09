@@ -22,7 +22,7 @@ export function Contact() {
             className="absolute -left-20 bottom-0 h-40 w-40 rounded-full bg-blue-500/10 blur-3xl"
           />
           <div className="relative">
-            <SectionHeader eyebrow={c.eyebrow} title={c.title} subtitle={c.subtitle} />
+            <SectionHeader index="04" eyebrow={c.eyebrow} title={c.title} subtitle={c.subtitle} />
 
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a

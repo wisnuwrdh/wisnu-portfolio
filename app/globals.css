@@ -33,44 +33,7 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
 
-  --animate-marquee: marquee var(--marquee-duration, 40s) linear infinite;
-  --animate-marquee-reverse: marquee-reverse var(--marquee-duration, 40s) linear infinite;
-  --animate-aurora: aurora 12s linear infinite;
   --animate-blob: blob 14s ease-in-out infinite;
-  --animate-shimmer: shimmer 2.4s linear infinite;
-  --animate-gradient-x: gradient-x 6s ease infinite;
-  --animate-pulse-slow: pulse-slow 5s ease-in-out infinite;
-  --animate-spin-slow: spin 24s linear infinite;
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-50% - var(--marquee-gap, 2rem)));
-  }
-}
-
-@keyframes marquee-reverse {
-  from {
-    transform: translateX(calc(-50% - var(--marquee-gap, 2rem)));
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes aurora {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 @keyframes blob {
@@ -83,35 +46,6 @@
   }
   66% {
     transform: translate(-20px, 24px) scale(0.94);
-  }
-}
-
-@keyframes shimmer {
-  from {
-    background-position: 200% 50%;
-  }
-  to {
-    background-position: -200% 50%;
-  }
-}
-
-@keyframes gradient-x {
-  0%,
-  100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-@keyframes pulse-slow {
-  0%,
-  100% {
-    opacity: 0.55;
-  }
-  50% {
-    opacity: 1;
   }
 }
 
