@@ -19,7 +19,7 @@
       'hero.lead': "I'm Wisnu, a content marketer focused on organic content strategy and distribution. I help small teams connect audience research, content strategy, distribution, and data, from planning through measurement.",
       'hero.cta.work': 'Selected work',
       'hero.cta.about': 'About me',
-      'hero.caption': 'Wisnu, somewhere between drafts.',
+      'hero.caption': 'Wisnu Wardhana',
 
       'band.label': 'Currently:',
       'band.text': 'Building <em>Narehat</em>, growing <em>@pedetanpajerawat</em>, and turning each experiment into a better understanding of content.',
@@ -198,7 +198,7 @@
       'hero.lead': 'Saya Wisnu, Content Marketer dengan fokus organic content strategy & distribution. Saya bantu tim kecil menghubungkan audience research, strategi konten, distribusi, dan data, dari perencanaan sampai evaluasi hasil.',
       'hero.cta.work': 'Karya pilihan',
       'hero.cta.about': 'Tentang saya',
-      'hero.caption': 'Wisnu, tengah-tengah bikin draf.',
+      'hero.caption': 'Wisnu Wardhana',
 
       'band.label': 'Saat ini:',
       'band.text': 'Lagi bangun <em>Narehat</em>, ngembangin <em>@pedetanpajerawat</em>, dan mengubah tiap eksperimen jadi pemahaman konten yang lebih tajam.',
