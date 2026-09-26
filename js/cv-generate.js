@@ -105,7 +105,7 @@ function generateCvPdf(lang) {
   // ---- Experience ----
   addHeading(data.labels.experience);
   data.experience.forEach((job, idx) => {
-    addParagraph(`${job.role} — ${job.org}`, { style: "bold", size: 10.5 });
+    addParagraph(`${job.role}, ${job.org}`, { style: "bold", size: 10.5 });
     addParagraph(job.period, { style: "italic", size: 9.5 });
     addSpacer(2);
     job.bullets.forEach((b) => addBullet(b));
@@ -123,7 +123,7 @@ function generateCvPdf(lang) {
   // ---- Certifications ----
   addHeading(data.labels.certifications);
   data.certifications.forEach((cert) => {
-    addParagraph(`${cert.name} — ${cert.issuer} (${cert.validity})`);
+    addParagraph(`${cert.name}, ${cert.issuer} (${cert.validity})`);
   });
   addSpacer(10);
 
@@ -131,7 +131,7 @@ function generateCvPdf(lang) {
   addHeading(data.labels.education);
   data.education.forEach((ed) => {
     addParagraph(`${ed.school}, ${ed.location}`, { style: "bold", size: 10.5 });
-    addParagraph(`${ed.program} — ${ed.period}`, { style: "normal", size: 10 });
+    addParagraph(`${ed.program}, ${ed.period}`, { style: "normal", size: 10 });
   });
 
   // ---- Simpan file ----

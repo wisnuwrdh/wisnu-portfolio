@@ -11,7 +11,7 @@ const cvData = {
       email: "mywisnuwardhana@gmail.com",
       linkedin: "linkedin.com/in/wisnu-wardhana-a28b34371",
       location: "Bekasi, Indonesia"
-      // phone: "" // opsional — isi kalau mau ditampilkan di PDF
+      // phone: "" // opsional, isi kalau mau ditampilkan di PDF
     },
 
     labels: {
@@ -84,7 +84,7 @@ const cvData = {
       email: "mywisnuwardhana@gmail.com",
       linkedin: "linkedin.com/in/wisnu-wardhana-a28b34371",
       location: "Bekasi, Indonesia"
-      // phone: "" // optional — fill in if you want it shown on the PDF
+      // phone: "" // optional, fill in if you want it shown on the PDF
     },
 
     labels: {
