@@ -680,6 +680,17 @@ body.nav-open .nav-toggle {
   color: var(--ink);
 }
 
+/* Reset untuk <button class="cta">, biar tampil sama persis dengan <a class="cta"> */
+button.cta {
+  background: none;
+  border: none;
+  padding-inline: 0;
+  cursor: pointer;
+  text-align: left;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
 .cta__text {
   border-bottom: 1.5px solid var(--pen);
   padding-bottom: 0.12em;
