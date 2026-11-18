@@ -6,14 +6,14 @@ Semua nilai di bawah ada di dua tempat: fallback di `index.html` dan kamus di `j
 
 | Item | Contoh isi | index.html | i18n.js (en / id) |
 |---|---|---|---|
-| Jumlah waitlist Narehat | `1.240 orang` | baris 250 (`p1.proof`) | 45 / 255 |
-| Jumlah followers PedeTanpaJerawat | `8,7 rb` | baris 284 (`p2.proof`) | 51 / 261 |
+| Jumlah daftar tunggu Narehat | `1.240 orang` | baris 250 (`p1.proof`) | 45 / 255 |
+| Jumlah pengikut PedeTanpaJerawat | `8,7 rb` | baris 284 (`p2.proof`) | 51 / 261 |
 
 ## 2. Halaman Narehat — metrik
 
 | Metrik | Contoh isi | index.html | i18n.js (en / id) |
 |---|---|---|---|
-| Waitlist | `1.240` | 558 | 100 / 310 |
+| Daftar tunggu | `1.240` | 558 | 100 / 310 |
 | Pengguna aktif | `86 / minggu` | 562 | 102 / 312 |
 | Wawancara riset | `12` | 566 | 104 / 314 |
 | Temuan utama | `5 dari 12 menyebut…` (1 kalimat) | 570 | 106 / 316 |
@@ -22,18 +22,18 @@ Semua nilai di bawah ada di dua tempat: fallback di `index.html` dan kamus di `j
 
 | Metrik | Contoh isi | index.html | i18n.js (en / id) |
 |---|---|---|---|
-| Followers | `8,7 rb` | 712 | 133 / 343 |
-| Completion rate | `38%` | 716 | 135 / 345 |
-| Saves | `2.100` | 720 | 137 / 347 |
-| Replies | `340` | 724 | 139 / 349 |
-| Link clicks | `610` | 728 | 141 / 351 |
+| Pengikut | `8,7 rb` | 712 | 133 / 343 |
+| Rasio selesai tonton | `38%` | 716 | 135 / 345 |
+| Disimpan | `2.100` | 720 | 137 / 347 |
+| Balasan | `340` | 724 | 139 / 349 |
+| Klik tautan | `610` | 728 | 141 / 351 |
 
-Views post teratas (`126.1K` / `126,1 rb`) sudah terisi.
+Tayangan postingan teratas (`126.1K` / `126,1 rb`) sudah terisi.
 
 ## 4. Nomor WhatsApp
 
 - Isi `whatsapp` di `js/config.js:9` dengan format internasional tanpa `+` dan tanpa spasi, contoh `6281234567890`.
-- Ganti juga teks fallback di `index.html:456` (`WhatsApp: [ISI: nomor]`).
+- Ganti juga teks fallback di `index.html:456` (`WhatsApp: [ISI]`).
 - Selama `whatsapp` kosong, tombol "Chat on WhatsApp" tetap tersembunyi; tombol email tetap jalan.
 
 ## 5. Opsional (belum wajib)
