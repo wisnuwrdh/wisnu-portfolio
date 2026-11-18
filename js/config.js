@@ -6,9 +6,10 @@
 
   var CONFIG = {
     email: "mywisnuwardhana@gmail.com",
+    whatsapp: "",
     social: {
       linkedin:  "https://www.linkedin.com/in/wisnu-wardhana-a28b34371",
-      instagram: "https://www.instagram.com/wisnuwrdh_"
+      instagram: "https://www.instagram.com/pedetanpajerawat"
     }
   };
 
@@ -30,6 +31,11 @@
       document.querySelector('[data-config="email"]'),
       'mailto:' + email + '?subject=Content%20Marketing%20Opportunity'
     );
+  }
+
+  var whatsapp = readValue(CONFIG.whatsapp);
+  if (whatsapp) {
+    activate(document.querySelector('[data-config="whatsapp"]'), whatsapp);
   }
 
   var social = CONFIG.social || {};
