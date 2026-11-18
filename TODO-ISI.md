@@ -23,7 +23,7 @@ Semua nilai di bawah ada di dua tempat: fallback di `index.html` dan kamus di `j
 | Metrik | Contoh isi | index.html | i18n.js (en / id) |
 |---|---|---|---|
 | Pengikut | `8,7 rb` | 712 | 133 / 343 |
-| Rasio selesai tonton | `38%` | 716 | 135 / 345 |
+| Retensi | `38%` | 716 | 135 / 345 |
 | Disimpan | `2.100` | 720 | 137 / 347 |
 | Balasan | `340` | 724 | 139 / 349 |
 | Klik tautan | `610` | 728 | 141 / 351 |
